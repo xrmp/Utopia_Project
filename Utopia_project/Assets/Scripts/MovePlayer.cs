@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    public float speed = 0.5f;
-    private Vector2 moveVector;
+    
+    public float moveSpeed = 5f;
 
-    void Awake()
+    private Rigidbody2D rb;
+
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void Update()
     {
-        moveVector.x = Input.GetAxis("Horizontal");
-        rb.MovePosition(rb.position + moveVector * speed * Time.deltaTime);
+        float moveX = Input.GetAxis("Horizontal");
+
+        Vector2 movement = new Vector2(moveX, 0) * moveSpeed * Time.deltaTime;
+
+        rb.MovePosition(rb.position + movement);
     }
+
 }
