@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody2D rb;
+    public float speed = 0.5f;
+    private Vector2 moveVector;
+
+    void Awake()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        moveVector.x = Input.GetAxis("Horizontal");
+        rb.MovePosition(rb.position + moveVector * speed * Time.deltaTime);
     }
 }
