@@ -2952,6 +2952,7 @@ GameObject:
   - component: {fileID: 1259247204}
   - component: {fileID: 1259247203}
   - component: {fileID: 1259247208}
+  - component: {fileID: 1259247209}
   m_Layer: 0
   m_Name: Shaman
   m_TagString: Player
@@ -3135,7 +3136,7 @@ Animator:
   m_GameObject: {fileID: 1259247201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4bd727a07e315cc499517ac413e2c415, type: 2}
+  m_Controller: {fileID: 9100000, guid: dc22de8cb5729184ab499d3222ce9d71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3146,6 +3147,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1259247209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259247201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf2bc6f09d6678408e2b0efaf41252d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1259247208}
 --- !u!1 &1302777790
 GameObject:
   m_ObjectHideFlags: 3
@@ -3269,8 +3283,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -108, y: -139}
-  m_SizeDelta: {x: 404.88745, y: 380.3951}
+  m_AnchoredPosition: {x: -108, y: -139.00002}
+  m_SizeDelta: {x: 404.88745, y: 380.39514}
   m_Pivot: {x: 0.5746048, y: 0.42059192}
 --- !u!114 &1321892935
 MonoBehaviour:
