@@ -778,7 +778,7 @@ Transform:
   m_GameObject: {fileID: 984976649}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.7, y: -9.8, z: 6}
+  m_LocalPosition: {x: -110.6, y: -12.8, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1100,7 +1100,7 @@ Transform:
   m_GameObject: {fileID: 1259247201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.7, y: -9.8, z: 11}
+  m_LocalPosition: {x: -110.6, y: -12.8, z: 11}
   m_LocalScale: {x: -2.4141536, y: 2.6943765, z: 4.8361974}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1131,7 +1131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a3489fa70b74b44e9cf94b3895b5671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToSpawn: []
+  objectsToSpawn:
+  - {fileID: 481424319895459121, guid: 697a1814e52c6404babde6e0a7515bc3, type: 3}
 --- !u!212 &1259247205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1266,7 +1267,7 @@ Animator:
   m_GameObject: {fileID: 1259247201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dc22de8cb5729184ab499d3222ce9d71, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4bd727a07e315cc499517ac413e2c415, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1954,7 +1955,7 @@ Transform:
   m_GameObject: {fileID: 1803494917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.7, y: -9.8, z: 6}
+  m_LocalPosition: {x: -110.6, y: -12.8, z: 6}
   m_LocalScale: {x: 1.0044944, y: 1.0044944, z: 1.0044944}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2082,6 +2083,7 @@ GameObject:
   - component: {fileID: 2009130379}
   - component: {fileID: 2009130381}
   - component: {fileID: 2009130380}
+  - component: {fileID: 2009130382}
   m_Layer: 0
   m_Name: FirstObstacle
   m_TagString: Untagged
@@ -2201,6 +2203,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2009130382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009130378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da121951c8f55fd45b2d24cb4d24ed0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065826113
 GameObject:
   m_ObjectHideFlags: 0

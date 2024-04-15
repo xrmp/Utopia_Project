@@ -39,9 +39,9 @@ public class SummonController : MonoBehaviour
 
     void SpawnObject(int index) 
 {
-    Vector3 playerPosition = transform.position; // Assuming the script is attached to the player object
+    Vector3 playerPosition = transform.position; 
 
-    Vector3 spawnPosition = playerPosition + transform.right * 4f + transform.up * 1f; // Adjust the offset as needed
+    Vector3 spawnPosition = playerPosition + transform.right * 40f + transform.up * 1f; 
 
     GameObject newObject = Instantiate(objectsToSpawn[index], spawnPosition, Quaternion.identity);
 
