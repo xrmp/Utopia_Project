@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5147637187253695282}
   - component: {fileID: -1422052029116927205}
-  - component: {fileID: 6670468794966147586}
+  - component: {fileID: 4380307041118394427}
   m_Layer: 0
   m_Name: ForestSpirit
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6670468794966147586
+--- !u!114 &4380307041118394427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

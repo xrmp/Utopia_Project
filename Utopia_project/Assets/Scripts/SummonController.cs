@@ -45,7 +45,7 @@ public class SummonController : MonoBehaviour
 
     GameObject newObject = Instantiate(objectsToSpawn[index], spawnPosition, Quaternion.identity);
 
-    StartCoroutine(DestroyObjectAfterDelay(newObject, 5f));
+    StartCoroutine(DestroyObjectAfterDelay(newObject, 1f));
 }
 
     IEnumerator DestroyObjectAfterDelay(GameObject obj, float delay)
