@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThirdScene.unity
     guid: f7f8ebf867238314f9886a78a0eb5e44
+  - enabled: 1
+    path: Assets/Scenes/Prolog.unity
+    guid: 01ef0682d5c6e4e4e8add9b12042d1f7
   m_configObjects: {}
