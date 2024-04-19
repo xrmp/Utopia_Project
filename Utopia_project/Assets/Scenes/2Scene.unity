@@ -2707,7 +2707,7 @@ PrefabInstance:
     - target: {fileID: 1139485553614103814, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 222b64ca15ce52041ab1bab7ed14f664, type: 3}
+      objectReference: {fileID: 21300000, guid: e7a743bf904e56f40aeab7aea646539d, type: 3}
     - target: {fileID: 3857467268208405088, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: m_Name
       value: Totem
@@ -2718,11 +2718,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317223288870399028, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.6
+      value: 27.2
       objectReference: {fileID: 0}
     - target: {fileID: 4317223288870399028, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4317223288870399028, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: m_LocalPosition.z
