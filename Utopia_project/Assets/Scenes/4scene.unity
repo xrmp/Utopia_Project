@@ -346,7 +346,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 804290316388986717, guid: 0477f17bd6f96984cb7ea3c394dcdd61, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7505661844162457045, guid: 0477f17bd6f96984cb7ea3c394dcdd61, type: 3}
       insertIndex: -1
@@ -356,11 +357,6 @@ PrefabInstance:
 --- !u!224 &94847582 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7505661844162457045, guid: 0477f17bd6f96984cb7ea3c394dcdd61, type: 3}
-  m_PrefabInstance: {fileID: 94847581}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &94847583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 804290316388986717, guid: 0477f17bd6f96984cb7ea3c394dcdd61, type: 3}
   m_PrefabInstance: {fileID: 94847581}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &191956895
@@ -512,7 +508,7 @@ PrefabInstance:
     - target: {fileID: 6255409699584445066, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: dialogueBox
       value: 
-      objectReference: {fileID: 94847583}
+      objectReference: {fileID: 0}
     - target: {fileID: 6255409699584445066, guid: 3905ee43e6882df48b27c3ee1a8aae90, type: 3}
       propertyPath: dialogueText
       value: Press the F button to start the dialog
